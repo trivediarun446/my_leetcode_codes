@@ -1,0 +1,50 @@
+// It is a hacker rank programe . Its name is Piyanka and toy . In this programe we want minimum shipping charages 
+// on toy transportation .
+// The question is that we have number of toys which can be inserted in a container . but the condition is that . 
+// container can hold the max toy accorting to the min weigth + 4 . 
+#include<iostream> 
+using namespace std ; 
+int main ()
+{
+    int n ;
+    cout<<"enter the number of toys " ; 
+    cin>> n ;
+    int i =0 ;
+    int count=1 ; 
+    int arr[n];
+    for(int i =0 ; i< n ; i++ )
+    {
+        cin>> arr[i];
+    }
+    // here we use sorting algo called bubble sort 
+    for( int i =0 ; i< n-1 ; i++ )
+    {
+         for (int j = 0; j < n - i - 1; j++)
+         {
+            if (arr[j] > arr[j + 1])
+            {
+               int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp ;
+            }
+         }     
+    }
+    // for( int i=0 ; i < n ; i++ )
+    // {
+    //     cout<<arr[i];
+    // }
+    // here the main logic of this code 
+     for(i=0; i< n ; i++ )
+     {
+         for(int j=0 ; j<n-1 ;j++)
+         {
+            if(arr[j]>arr[i]+4){
+                count = count+1;
+                i=j ; 
+            } 
+         }
+             
+     }
+    cout<<count ; 
+    return 0 ;
+}
