@@ -1,4 +1,7 @@
 // It is leet code easy problem In this code we remove the element from an array 
+#include<vector>
+#include<iostream>
+using namespace std ;
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
