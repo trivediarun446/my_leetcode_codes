@@ -1,0 +1,31 @@
+                         TOPICS 
+
+SET :-
+Set is a container which contain uniques element in the. In set addition and deletion may be possible but modification is not possible .    
+
+
+ MAPS :-
+map is a way to store a key-value pair.   The keys are used to sort and identify the elements, while the values store the content associated with the keys. 
+               Maps are the two type :-
+
+
+
+    1) Ordered Maps : They are in the sorted order . They are sorted because they are start with red black tree (these tree are self balancing trees ) . In Ordered maps all operation such as addition , deletion ets they all are down in a time complaxcity of O(logn). This order of logn complaxcity is due to the red black tree height (tree ki starting se le kar ke end tk pahuchne mein hme keval log n time lagega ). 
+
+
+
+    2) Unordered Maps : They are in the Unordered formate. In this we are using hashing . The time complaxcity of hashing is O(1) .   
+     syntex =  Unordered_map<data_type , data_type> map_name 
+                                           
+                                              kADANE'S Algorithum 
+    This Algorithum state that the if any negative number is present in an array then we do preffix sum . In any case the sum will negative then we take the sum is equal to tha 0 ; This Algorithum is usefull in finding greatest sum of an array 
+
+
+                                              Some Basic Concept 
+    * INT_MIN is the smallest integer means  smallest signed int
+    *INT_MAx is the largest integer signed and unsinged int 
+                     
+                      
+
+                                               Function 
+    * array_name.size() :- It will give the lenth of an array 

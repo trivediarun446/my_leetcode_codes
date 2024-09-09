@@ -1,6 +1,11 @@
-class Solution {
+#include<iostream>
+#include<vector>
+using namespace std ; 
+class Solution 
+{
 public:
-    int removeDuplicates(vector<int>& nums) {
+    int removeDuplicates(vector<int>& nums)
+     {
 // here I take k integer that is index for new array in which we remove all dublicate element or 
 // contain only unique element 
 // initial value of k is 1 state that the 0 th index of new array has always unique element 
@@ -16,7 +21,13 @@ public:
                 nums[k]=nums[i];
                 k++; /*for increasing the indec of new array after inserting the unique element */
             }
+        
+        if(nums.size()==0)
+        {
+            return 0 ;
         }
-        return k;
+        else 
+        return 1;
+       }
     }
 };
