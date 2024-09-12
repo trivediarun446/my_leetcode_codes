@@ -29,3 +29,19 @@ map is a way to store a key-value pair.   The keys are used to sort and identify
 
                                                Function 
     * array_name.size() :- It will give the lenth of an array 
+
+
+                                              STACK 
+    Stack is the linear container which contain the element . Stack work on the princple of LIFO (last in first out ). when the elements are more than the capacity of stack then there is condition called stack overflow . but in another hand if there no element in the stack then the condition is empty stack . we can perform many operations on stack such as insertion , deletion and search and many more . 
+      
+    There so many Function :
+    1) Pop()
+    2) Push()
+    3) Isempty()
+    4) Peek()
+    5) Isfull()
+    
+                           Working of Pop()
+
+    First of all we check the stack is empty or not . If top element is in the position of -1 then the stack will empty . 
+    x
