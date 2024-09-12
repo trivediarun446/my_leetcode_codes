@@ -32,7 +32,12 @@ map is a way to store a key-value pair.   The keys are used to sort and identify
 
 
                                               STACK 
-    Stack is the linear container which contain the element . Stack work on the princple of LIFO (last in first out ). when the elements are more than the capacity of stack then there is condition called stack overflow . but in another hand if there no element in the stack then the condition is empty stack . we can perform many operations on stack such as insertion , deletion and search and many more . 
+    Stack is the linear container which contain the element . Stack work on the princple of LIFO (last in first out ). when the elements are more than the capacity of stack then there is condition called stack overflow . but in another hand if there no element in the stack then the condition is empty stack . we can perform many operations on stack such as insertion , deletion and search and many more . Their are two type of stack first one is dynamic and other one is stactic . 
+    syntex ;- stack<data_type> name ;
+
+    stactic :- constant stack is called static stack . In this we can not change the size of stack . It's size is constant through out the program . by using array this is called stactic stack .
+
+    dynamic:- variable sized stack is called dynamic stack . in this we can change the size of stack in between the program . using linked list method we can use dynamic stack .  
       
     There so many Function :
     1) Pop()
@@ -44,4 +49,26 @@ map is a way to store a key-value pair.   The keys are used to sort and identify
                            Working of Pop()
 
     First of all we check the stack is empty or not . If top element is in the position of -1 then the stack will empty . 
-    x
+    Then this condition is called underflow stack . 
+    Otherwise we delete the top element and top will decrement by 1 and return the value at top-1 . 
+
+                          Working of Push()
+                        
+    First of all we check the top <= capacity-1 . If this condition is true then the stack is overflow . so we cant add the value in tha stack . This condition is called stack overflow 
+    Otherwise we give the top=top+1 and enter the value . .
+
+                          Working of top()
+                        
+    First of all we check the stack is empty . If the stack is empty(top==-1) then we cant return the top value .
+    Otherwise we return the value at the index of top 
+
+                         Working of Isempty()
+
+    First of we check the stack is overflow or not . if the top is at the valur of capacity -1 (top==capacity-1). 
+    then we simply return print stack is overflow . 
+    Otherwise we check the valur at the index==-1 . if this value is 0 then the stack is empty .
+
+                         Working of Isfull()
+                
+    If the  top == capacity -1 then the stack is full 
+    Otherwise it will return the stack is not full .
