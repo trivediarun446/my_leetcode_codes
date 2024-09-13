@@ -29,14 +29,21 @@ vector <int> moveZeroes(vector<int>& nums)
         {
             nums[i]=0 ;
         }
+        return nums ;
 }
     int main ()
     {
-        vector<int> vec ; 
-        cout<<"enter the vector element"<<endl ; 
+        vector<int> vec(10) ; 
+        cout<<"enter the vector element"; 
         for(int i =0 ; i< vec.size(); i++)
         {
          cin>> vec[i];
         }
-        moveZeroes(vec);
+        cout<<"your array is this"<<endl ; 
+        vec=moveZeroes(vec);
+        for (int i = 0; i < 10; i++)
+        {
+            cout<<vec[i]<<endl;
+        }
+        
     }
