@@ -1,4 +1,4 @@
-                         TOPICS 
+                                                    TOPICS 
 
 SET :-
 Set is a container which contain uniques element in the. In set addition and deletion may be possible but modification is not possible .    
@@ -28,8 +28,16 @@ map is a way to store a key-value pair.   The keys are used to sort and identify
                       
 
                                                Function 
-    * array_name.size() :- It will give the lenth of an array 
+    1) array_name.size() :- It will give the lenth of an array 
+    2) max(n , m) :- this function is used for calculating the maximum value of m and n 
+    3) vector_begin():- This function is used for the finding first element of vector 
+    4) vector_end():- This function is used for the returning last element of the vector 
+    5) sort(starting_index , end_index) :- This function is used for the sort the array 
 
+
+                                             Note
+                                    
+    1) condition_statement1 ? condition_statement2 :- if first statement is false then the secound statement will execute in the programe 
 
                                               STACK 
     Stack is the linear container which contain the element . Stack work on the princple of LIFO (last in first out ). when the elements are more than the capacity of stack then there is condition called stack overflow . but in another hand if there no element in the stack then the condition is empty stack . we can perform many operations on stack such as insertion , deletion and search and many more . Their are two type of stack first one is dynamic and other one is stactic . 
