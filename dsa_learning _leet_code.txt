@@ -1,12 +1,13 @@
                                                     TOPICS 
 
-SET :-
-Set is a container which contain uniques element in the. In set addition and deletion may be possible but modification is not possible .    
+    SET :-
+    Set is a container which contain uniques element in the. In set addition and deletion may be possible but modification is not possible    
 
 
- MAPS :-
-map is a way to store a key-value pair.   The keys are used to sort and identify the elements, while the values store the content associated with the keys. 
-               Maps are the two type :-
+    MAPS :-
+    map is a way to store a key-value pair.   The keys are used to sort and identify the elements, while the values store the content associated with the keys. '
+    
+    Maps are the two type :-
 
 
 
@@ -80,3 +81,31 @@ map is a way to store a key-value pair.   The keys are used to sort and identify
                 
     If the  top == capacity -1 then the stack is full 
     Otherwise it will return the stack is not full .
+
+
+    In C++, npos is a constant defined in the std::string class, and it represents a value that is returned when a string search operation (like find()) fails to find the substring or character.
+
+    Explanation:
+
+    1) When you use find() to look for a substring or character in a string, it returns the position (index) of the first occurrence of that substring/character.
+
+    2) If the character or substring is not found, find() returns string::npos, which is a large unsigned integer, typically representing the maximum possible value for size_t (often -1 in practice).
+
+    code snippet : - 
+    string str = "hello";
+    size_t pos = str.find('a'); // 'a' is not in "hello"
+
+    if (pos == string::npos) {
+        cout << "'a' not found in the string" << endl;
+    } else {
+        cout << "'a' found at position: " << pos << endl;
+    }
+
+    Since 'a' is not found in "hello", str.find('a') will return string::npos, and the output 
+
+
+
+
+
+
+
