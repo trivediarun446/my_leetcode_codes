@@ -1,6 +1,32 @@
 #include<iostream>
 #include<vector>
 using namespace std ; 
+class Solution {
+public:
+    // Optimal Approach : 
+    // First of all make index variable with value 0 
+    // Traverse the loop from i to nums.size()
+    // Apply the condition in which we check the current element is non zero 
+    // If the element is non zero then we push the value at nums[index] and increment the index
+    // In list remaining element are zero 
+    void moveZeroes(vector<int>& nums) 
+    {
+        int index = 0 ;
+        for (int i = 0; i < nums.size(); i++)
+        {
+            if (nums[i]!= 0)
+            {
+                nums[index] = nums[i] ;
+                index ++ ; 
+            }
+            while (index < nums.size())
+            {
+                nums[index]= 0 ;
+                index++ ;
+            }
+        }
+    }
+};
 
 vector <int> moveZeroes(vector<int>& nums)
 {
