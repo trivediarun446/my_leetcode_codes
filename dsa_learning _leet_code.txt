@@ -103,7 +103,33 @@
 
     Since 'a' is not found in "hello", str.find('a') will return string::npos, and the output 
 
+                        INBUILT STRING FUNCTIONS :-
+    
+    1) For converting int / float / double into the string 
+    --> to_string() 
 
+    2) For converting string back to int 
+    --> stoi()
+
+    3) For getting substring from one index to another index 
+    --> string_name.sub_str( starting index , till that index )
+
+    4) For convert lower case latter into uppercase 
+    --> toupper(character) ;
+
+    5)  For convert upper case latter into lower case 
+    --> tolower(character) ;
+
+    6)  For checking lower case latter 
+    --> islower(character) ;
+
+    7) For checking  uppercase letter 
+    --> isupper(character) ;
+    
+    8) For checking this is alphabate or not 
+    --> isalph(character);
+
+   
 
 
 
