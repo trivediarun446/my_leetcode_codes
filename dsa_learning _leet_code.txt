@@ -103,6 +103,20 @@
 
     Since 'a' is not found in "hello", str.find('a') will return string::npos, and the output 
 
+    3) IF we concatinate a string with it self then the sub_str of all concatinate string is equal to the all rotations of the original string 
+    
+    code snippet : 
+    
+    str1 = abcde 
+    con = str1 + str1 = abcdeabcde 
+    possible rotation are :-
+
+    i) bcdea 
+    ii) cdeab 
+    iii) deabc 
+    
+    all the possible rotation are present in the sub string
+
                         INBUILT STRING FUNCTIONS :-
     
     1) For converting int / float / double into the string 
@@ -128,7 +142,9 @@
     
     8) For checking this is alphabate or not 
     --> isalph(character);
-
+    
+    9) For rotating the string or int 
+    --> rotate(start , number of rotation , end) ;
    
 
 
