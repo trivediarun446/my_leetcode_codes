@@ -150,4 +150,6 @@
 
 
 
-
+                             Binary Search On A Answer Approach 
+    --> If a statement having such statements " minimize the maximum " or "maximize the minimum"  then the problem is of BSA 
+    
